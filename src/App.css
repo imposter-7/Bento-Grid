@@ -1,0 +1,11 @@
+.wrapper {
+    height: 100%;
+    width: 100%;
+    padding: 4vh 4vw;
+}
+
+@media only screen and (min-width: 1024px) {
+    .wrapper {
+        padding: 9vh 7vw;
+    }
+}

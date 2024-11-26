@@ -1,0 +1,20 @@
+.grid {
+    display: grid;
+    grid-template-areas: 'div1'
+    'div2'
+    'div3'
+    'div4';
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+@media only screen and (min-width: 1024px) {
+    .grid {
+        grid-template-areas: 'div1'
+        'div2'
+        'div3'
+        'div4';
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
